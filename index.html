@@ -1,0 +1,483 @@
+<!-- Representa a la version 5 de HTML -->
+<!DOCTYPE html>
+
+<!-- Representa la pagina del navegador -->
+<html lang="es">
+
+<!-- Configuracion de la pagina -->
+
+<head>
+
+    <!-- Conjunto de caracteres validos para el idioma espanol -->
+    <meta charset="UTF-8">
+
+    <!-- Habilita el diseno web responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripcion breve del sitio web -->
+    <meta name="description" content="Lima Garage ofrece mantenimiento y reparacion automotriz en Lima.">
+
+    <!-- Titulo de la pestana en el navegador -->
+    <title>Lima Garage</title>
+
+    <!-- Cargar la familia tipografica Roboto desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Enlazar el HTML con la hoja de estilos CSS externa -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<!-- Contenido visible de la pagina -->
+
+<body>
+
+    <!-- Cabecera de la pagina -->
+    <header id="cabecera">
+
+        <!-- Franja superior con datos de contacto -->
+        <div class="barra-contacto">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Alinear los datos de contacto y las redes sociales -->
+                <div class="contacto-contenido">
+
+                    <!-- Datos principales del taller -->
+                    <div class="datos-contacto">
+                        <span>Av. Canada 2450, La Victoria, Lima</span>
+                        <span>+51 987 654 321</span>
+                        <span>contacto@limagarage.pe</span>
+                    </div>
+
+                    <!-- Redes sociales -->
+                    <div class="redes-sociales">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Barra de navegacion principal -->
+        <div class="barra-navegacion">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Alinear el logotipo y el menu -->
+                <div class="nav-bar">
+
+                    <!-- Nombre del sitio -->
+                    <div id="logo">
+                        <div class="logo-nombre">Lima <span>Garage</span></div>
+                    </div>
+
+                    <!-- Menu con siete opciones visibles -->
+                    <nav class="menu-principal">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#nosotros">Nosotros</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#logros">Logros</a>
+                        <a href="#equipo">Equipo</a>
+                        <a href="#proyectos">Proyectos</a>
+                        <a href="#pie">Contacto</a>
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Banner principal -->
+        <section id="inicio">
+
+            <!-- Capa oscura que permite leer el texto sobre la imagen -->
+            <div class="banner-capa">
+
+                <!-- Ajustar el ancho del contenido y centrar -->
+                <div class="container">
+
+                    <!-- Caja que limita el ancho del texto principal -->
+                    <div class="banner-contenido">
+                        <p class="subtitulo">Bienvenido a nuestro taller</p>
+                        <h1>Cuidamos tu auto para que sigas avanzando</h1>
+                        <p>Realizamos diagnostico, mantenimiento y reparacion con atencion clara, ordenada y
+                            profesional.</p>
+                        <a href="#servicios" class="enlace-destacado">Conoce nuestros servicios</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Beneficios del taller -->
+        <section class="padding-xl" id="beneficios">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Encabezado de la seccion -->
+                <div class="titulo-seccion">
+                    <p class="subtitulo">¿Por que elegirnos?</p>
+                    <h2>Tenemos una solucion para cada necesidad</h2>
+                </div>
+
+                <!-- Alineacion flexible de las tarjetas -->
+                <div class="row beneficios-fila">
+
+                    <!-- Tarjeta 1 -->
+                    <div class="tarjeta-beneficio">
+                        <div class="beneficio-numero">01</div>
+                        <div class="beneficio-texto">
+                            <h3>Diagnostico preciso</h3>
+                            <p>Revisamos el vehiculo y explicamos el problema antes de iniciar el trabajo.</p>
+                            <a href="#servicios">Ver servicio</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="tarjeta-beneficio">
+                        <div class="beneficio-numero">02</div>
+                        <div class="beneficio-texto">
+                            <h3>Entrega responsable</h3>
+                            <p>Organizamos cada servicio para cumplir con el tiempo acordado con el cliente.</p>
+                            <a href="#servicios">Ver servicio</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="tarjeta-beneficio">
+                        <div class="beneficio-numero">03</div>
+                        <div class="beneficio-texto">
+                            <h3>Tecnicos capacitados</h3>
+                            <p>Nuestro equipo trabaja con orden, experiencia y herramientas adecuadas.</p>
+                            <a href="#nosotros">Conocenos</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Sobre nosotros -->
+        <section class="padding-xl" id="nosotros">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Alineacion flexible de las dos columnas -->
+                <div class="row nosotros-fila">
+
+                    <!-- Columna 1: imagen del taller -->
+                    <div class="columna-imagen">
+                        <img src="assets/img/nosotros_taller.jpg" alt="Tecnico realizando mantenimiento a un automovil"
+                            class="img-fluid">
+                    </div>
+
+                    <!-- Columna 2: informacion del taller -->
+                    <div class="columna-texto">
+                        <p class="subtitulo">Sobre nosotros</p>
+                        <h2>Experiencia y confianza para cuidar tu vehiculo</h2>
+                        <p>En Lima Garage brindamos soluciones de mantenimiento y reparacion automotriz. Nuestro
+                            objetivo es ofrecer un servicio comprensible, responsable y adaptado a las necesidades de
+                            cada conductor.</p>
+
+                        <!-- Lista de caracteristicas -->
+                        <div class="lista-nosotros">
+                            <div>Atencion personalizada</div>
+                            <div>Herramientas modernas</div>
+                            <div>Precios transparentes</div>
+                            <div>Revision profesional</div>
+                        </div>
+
+                        <a href="#pie" class="enlace-destacado">Mas informacion</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Nuestros servicios -->
+        <section class="padding-xl" id="servicios">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Encabezado de la seccion -->
+                <div class="titulo-seccion">
+                    <p class="subtitulo">Nuestros servicios</p>
+                    <h2>Atencion completa para tu automovil</h2>
+                    <p>Trabajamos en los sistemas principales del vehiculo para mantenerlo seguro y en buen estado.</p>
+                </div>
+
+                <!-- Alineacion flexible de las tarjetas de servicios -->
+                <div class="row servicios-fila">
+
+                    <!-- Tarjeta de servicio 1 -->
+                    <div class="tarjeta-servicio">
+                        <div class="servicio-icono"></div>
+                        <h3>Diagnostico general</h3>
+                        <p>Evaluamos el estado del vehiculo para identificar fallas y recomendar una solucion adecuada.
+                        </p>
+                        <a href="#" class="enlace-flecha"><span>&rarr;</span> Leer mas</a>
+                    </div>
+
+                    <!-- Tarjeta de servicio 2 -->
+                    <div class="tarjeta-servicio">
+                        <div class="servicio-icono"></div>
+                        <h3>Mantenimiento de motor</h3>
+                        <p>Realizamos cambios y revisiones preventivas para conservar el rendimiento del motor.</p>
+                        <a href="#" class="enlace-flecha"><span>&rarr;</span> Leer mas</a>
+                    </div>
+
+                    <!-- Tarjeta de servicio 3 -->
+                    <div class="tarjeta-servicio">
+                        <div class="servicio-icono"></div>
+                        <h3>Mantenimiento preventivo</h3>
+                        <p>Revisamos componentes esenciales para reducir fallas y mejorar la seguridad durante el
+                            manejo.</p>
+                        <a href="#" class="enlace-flecha"><span>&rarr;</span> Leer mas</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Logros y datos destacados -->
+        <section class="padding-xl" id="logros">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Encabezado de la seccion -->
+                <div class="titulo-seccion">
+                    <p class="subtitulo">Nuestros logros</p>
+                    <h2>Resultados que respaldan nuestro trabajo</h2>
+                    <p>Cada cifra representa la confianza de nuestros clientes y la experiencia acumulada por el taller.
+                    </p>
+                </div>
+
+                <!-- Fila de datos destacados organizada con Flexbox -->
+                <div class="row logros-fila">
+
+                    <!-- Dato destacado 1 -->
+                    <div class="dato-logro">
+                        <div class="numero-logro">1,250+</div>
+                        <p>Clientes atendidos</p>
+                    </div>
+
+                    <!-- Dato destacado 2 -->
+                    <div class="dato-logro">
+                        <div class="numero-logro">2,400+</div>
+                        <p>Servicios realizados</p>
+                    </div>
+
+                    <!-- Dato destacado 3 -->
+                    <div class="dato-logro">
+                        <div class="numero-logro">12</div>
+                        <p>Tecnicos capacitados</p>
+                    </div>
+
+                    <!-- Dato destacado 4 -->
+                    <div class="dato-logro">
+                        <div class="numero-logro">10</div>
+                        <p>Anos de experiencia</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Equipo de trabajo -->
+        <section class="padding-xl" id="equipo">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Encabezado de la seccion -->
+                <div class="titulo-seccion">
+                    <p class="subtitulo">Nuestro equipo</p>
+                    <h2>Profesionales comprometidos con tu seguridad</h2>
+                </div>
+
+                <!-- Fila de colaboradores organizada con Flexbox -->
+                <div class="row equipo-fila">
+
+                    <!-- Colaborador 1 -->
+                    <div class="tarjeta-equipo">
+                        <img src="assets/img/equipo_carlos.jpg" alt="Jefe de taller de Lima Garage" class="img-fluid">
+                        <div class="equipo-contenido">
+                            <h3>Carlos Mendoza</h3>
+                            <p>Jefe de taller</p>
+                        </div>
+                    </div>
+
+                    <!-- Colaborador 2 -->
+                    <div class="tarjeta-equipo">
+                        <img src="assets/img/equipo_lucia.jpg" alt="Especialista en diagnostico automotriz"
+                            class="img-fluid">
+                        <div class="equipo-contenido">
+                            <h3>Lucia Ramirez</h3>
+                            <p>Especialista en diagnostico</p>
+                        </div>
+                    </div>
+
+                    <!-- Colaborador 3 -->
+                    <div class="tarjeta-equipo">
+                        <img src="assets/img/equipo_diego.jpg" alt="Tecnico especialista en motores" class="img-fluid">
+                        <div class="equipo-contenido">
+                            <h3>Diego Torres</h3>
+                            <p>Tecnico de motores</p>
+                        </div>
+                    </div>
+
+                    <!-- Colaborador 4 -->
+                    <div class="tarjeta-equipo">
+                        <img src="assets/img/equipo_andre.jpg" alt="Tecnico especialista en mantenimiento preventivo"
+                            class="img-fluid">
+                        <div class="equipo-contenido">
+                            <h3>Andre Salazar</h3>
+                            <p>Tecnico de mantenimiento</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Galeria simple de proyectos, basada en la seccion Our Projects de Ezir -->
+        <section class="padding-xl" id="proyectos">
+
+            <!-- Ajustar el ancho del contenido y centrar -->
+            <div class="container">
+
+                <!-- Encabezado distribuido en dos columnas -->
+                <div class="row proyectos-encabezado">
+                    <div>
+                        <p class="subtitulo">Nuestros proyectos</p>
+                        <h2>Algunos trabajos realizados en el taller</h2>
+                    </div>
+                    <div>
+                        <p>Conoce algunos servicios realizados por nuestro equipo. Las imagenes son temporales y luego
+                            pueden reemplazarse por fotografias propias.</p>
+                    </div>
+                </div>
+
+                <!-- Enlaces que representan las categorias de los proyectos -->
+                <div class="proyectos-filtros">
+                    <a href="#" class="filtro-activo">Frenos</a>
+                    <a href="#">Motor</a>
+                    <a href="#">Diagnostico</a>
+                    <a href="#">Suspension</a>
+                    <a href="#">Neumaticos</a>
+                </div>
+
+                <!-- Fila de tres imagenes organizada con Flexbox -->
+                <div class="row proyectos-fila">
+
+                    <!-- Proyecto 1 -->
+                    <div class="proyecto-item">
+                        <img src="assets/img/proyecto_frenos.jpg" alt="Revision del sistema de frenos"
+                            class="img-fluid">
+                        <div class="proyecto-nombre">Sistema de frenos</div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="proyecto-item">
+                        <img src="assets/img/proyecto_motor.jpg" alt="Diagnostico del motor de un vehiculo"
+                            class="img-fluid">
+                        <div class="proyecto-nombre">Diagnostico de motor</div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="proyecto-item">
+                        <img src="assets/img/proyecto_mantenimiento.jpg" alt="Mantenimiento preventivo de un automovil"
+                            class="img-fluid">
+                        <div class="proyecto-nombre">Mantenimiento preventivo</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer class="padding-xs" id="pie">
+
+        <!-- Ajustar el ancho del contenido y centrar -->
+        <div class="container">
+
+            <!-- Fila superior del pie de pagina -->
+            <div class="row footer-contenido">
+
+                <!-- Presentacion breve del taller -->
+                <div class="footer-columna">
+                    <h3>Lima Garage</h3>
+                    <p>Servicio automotriz responsable para mantener tu vehiculo seguro y en buen estado.</p>
+                </div>
+
+                <!-- Enlaces principales -->
+                <div class="footer-columna footer-enlaces">
+                    <h3>Enlaces</h3>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#nosotros">Nosotros</a>
+                </div>
+
+                <!-- Horario de atencion -->
+                <div class="footer-columna">
+                    <h3>Horario</h3>
+                    <p>Lunes a sabado</p>
+                    <p>8:00 a. m. - 6:00 p. m.</p>
+                </div>
+
+                <!-- Informacion de contacto -->
+                <div class="footer-columna">
+                    <h3>Contacto</h3>
+                    <p>Av. Canada 2450, La Victoria, Lima</p>
+                    <p>+51 987 654 321</p>
+                    <p>contacto@limagarage.pe</p>
+                </div>
+
+            </div>
+
+            <!-- Franja inferior con los derechos reservados -->
+            <div class="footer-bar">
+                <div>Copyright &copy; 2026 Lima Garage. Todos los derechos reservados.</div>
+                <div>Proyecto academico de Taller de Programacion Web.</div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
