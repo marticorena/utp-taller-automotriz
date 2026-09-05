@@ -448,15 +448,17 @@ a {
 }
 
 .proyecto-nombre {
-    position: absolute;
+    position: static;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 14px;
-    color: var(--color-blanco);
-    background-color: rgba(6, 43, 70, 0.82);
-    text-align: center;
+    padding: 0px;
+    color: var(--color-texto);
+    background-color: transparent;
+    text-align: left;
     font-size: 20px;
+    font-weight: bold;
+    margin-top: 14px;
 }
 
 /* Ajustar la imagen al ancho de su caja padre */
