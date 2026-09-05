@@ -491,7 +491,6 @@ a {
 }
 
 .footer-enlaces a,
-.footer-bar div {
+.footer-bar div:last-child {
     color: var(--color-secundario);
 }
-
