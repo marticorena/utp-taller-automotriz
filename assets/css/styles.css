@@ -81,11 +81,7 @@ a {
     background-color: var(--color-blanco);
 }
 
-/* Franja oscura para diferenciar los datos destacados */
-#logros {
-    color: var(--color-blanco);
-    background-color: var(--color-principal);
-}
+
 
 /* Fondo claro para separar visualmente al equipo */
 #equipo {
@@ -365,9 +361,7 @@ a {
     border-right: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.dato-logro:last-child {
-    border-right: 0;
-}
+
 
 .numero-logro {
     color: var(--color-secundario);
@@ -492,7 +486,6 @@ a {
     gap: 6px;
 }
 
-.footer-enlaces a,
-.footer-bar div:last-child {
+.footer-enlaces a {
     color: var(--color-secundario);
 }
