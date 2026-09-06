@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 - Marticorena Rios Jean Duanner
 - Taipe Flores Olic
 - Almeyda Cordova, Dennis.
 - Arias Pinedo César
 - Melgarejo Soto Gian Pool
->>>>>>> origin/main

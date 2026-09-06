@@ -81,7 +81,11 @@ a {
     background-color: var(--color-blanco);
 }
 
-
+/* Franja oscura para diferenciar los datos destacados */
+#logros {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}
 
 /* Fondo claro para separar visualmente al equipo */
 #equipo {
@@ -213,10 +217,6 @@ a {
     max-width: 700px;
     margin: 0 auto 48px auto;
     text-align: center;
-}
-
-.titulo-seccion>p:last-child {
-    color: var(--color-texto-suave);
 }
 
 /* Flexbox: alineamiento flexible de elementos en fila */
@@ -374,10 +374,6 @@ a {
     margin-bottom: 0;
 }
 
-#logros .titulo-seccion>p:last-child {
-    color: var(--color-footer-texto);
-}
-
 /* Tarjeta vertical para cada integrante del equipo */
 .tarjeta-equipo {
     background-color: var(--color-blanco);
@@ -442,17 +438,13 @@ a {
 }
 
 .proyecto-nombre {
-    position: static;
-    right: 0;
-    bottom: 0;
-    left: 0;
     padding: 0px;
-    color: var(--color-texto);
-    background-color: transparent;
-    text-align: left;
+    color: var(--color-blanco);
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 14px;
+    padding: 14px;
+    background-color: var(--color-principal);
 }
 
 /* Ajustar la imagen al ancho de su caja padre */
@@ -486,6 +478,7 @@ a {
     gap: 6px;
 }
 
-.footer-enlaces a {
+.footer-enlaces a,
+.footer-enlaces .subtitulo {
     color: var(--color-secundario);
 }
